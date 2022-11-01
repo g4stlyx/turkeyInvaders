@@ -23,7 +23,7 @@ sc.tracer(0)
 
 # Background Music
 
-winsound.PlaySound(os.path.dirname(sys.argv[0])+"/onuncuYilMars.wav", winsound.SND_ASYNC|winsound.SND_NOSTOP|winsound.SND_LOOP)
+winsound.PlaySound(os.path.dirname(sys.argv[0])+"/onuncuYilMars.wv", winsound.SND_ASYNC|winsound.SND_NOSTOP|winsound.SND_LOOP)
 
 # Register the shapes
 
