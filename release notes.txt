@@ -1,0 +1,63 @@
+Plan
+
+restart button -
+high score --
+music,sound effects --
+bullet size --
+the higher score, the faster enemies
+various enemies
+optional enemies' speed and number, player may choose how hard game should be
+
+--------------------------------
+New Plan for menu and restart
+
+def game_loop():
+    while True:
+        #Do game stuff
+
+def main_loop():
+    while True:
+       #Show a menu.
+       #Check for clicks on the menu
+        if clicked_on_play_new_game:
+            game_loop() # will run until done then return to menu.
+        elif clicked_on_quit:
+            #exit program here.
+
+--------------------------------
+
+1.3.1
+
+bullet size has been increased 25 to 29
+high score has been added
+
+--------------------------------
+1.3.2
+
+game restarts itself after it's over, but can't keep the high score
+also added 3 modules just for restart
+and this way switchs the bg-music off
+
+---------------------------------
+1.3.3
+
+sound effects added to the version 1.3.1
+"a" and "A" keys added for going left
+"d" and "D" keys added for going right
+
+---------------------------------
+1.3.4
+
+all sound problems were solved, they can be played simultaneously now
+10. Yýl Marþý added as background music
+
+----------------------------------
+1.3.5
+
+trying to restart the game with high score and background-music
+
+this restarts the game with canceling high score and restarting background music tho:
+os.execl(sys.executable, sys.executable, * sys.argv)
+
+
+
